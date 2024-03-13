@@ -1,0 +1,51 @@
+Defining the problem
+My client is Meseret Bereka, who is the owner of two guesthouses
+in Addis Ababa. Meseret often faces issues regarding the reservation process of her establishment, 
+such as double-bookings, and innacurate reservation details. Previously, this had led to a waste of
+time and resources, causing stress to my client. To tackle this issue, I decided to develop a digital
+hotel reservation system that would perform various operations to increase the efficiency of the Guest House.
+Rationale for Proposed Solution
+Product:
+I think a hotel reservation system will be much easier to operate than excel
+because all the user would need to do is fill in text boxes with client
+information and click on buttons accordingly. It will be more secure because it
+has a username and password. It will be more reliable as well because excel
+files can easily be lost and deleted accidentally but it will be harder to make
+mistakes like that on a reservation system. Since it will have features like drop
+down menus, buttons and text boxes, it will be user-friendly.
+Software:
+The software I chose to use is Java Netbeans with MySQL and PHP using
+XAMPP because:
+- I have been introduced to it in my Computer Science class.
+- I can link the Netbeans with my database easily.
+- Platform Independence
+- Using Java will help create a user-friendly database that will
+require minimal training for employees.
+- Using Java, I can have my database automatically prevent
+double-bookings from occurring by demonstrating an error message if a
+room is already taken.
+- Java will allow me to display the daily/weekly report for bookings
+and transactions by calculating the total bookings and displaying it in a
+separate table.
+- Java will allow the client to save every week’s reservations which
+will be important for the weekly report.
+- Java will also allow me to calculate the room prices and display it.
+483 words
+Starting Success Criteria
+1. User can add a reservation for any guest including the guest’s personal
+information.
+2. User can modify a current reservation to change information.
+3. User can cancel a current reservation.
+4. User can demonstrate an error message if a selected room and date is
+already taken.
+5. User can add a customer record with necessary information.
+6. User can modify a customer record to change necessary information.
+7. User can delete a customer record.
+8. User can search for customers using a search button.
+9. User can calculate Price according to type of room selected, number of
+nights, amount of discount rewarded, and whether or not the client
+selects an extra bed.
+10. User can save, modify, and delete price calculations on a table.
+11. There can be a username and password required to enter the system
+to increase security.
+12. All necessary information is saved on the database
